@@ -1,0 +1,21 @@
+#bar{
+    position: relative;
+    display: flex;
+    color: #ffffff;
+    z-index: -1;
+    justify-content: space-around;
+    background-color: rgb(63, 63, 63);
+    height:3rem;
+    
+}
+#element{
+    margin-right: 20%;
+    margin-top:1rem;
+}
+
+.ags{
+    margin-bottom: 1rem;
+}
+.body{
+    background-color:rgb(255, 255, 255);
+}
