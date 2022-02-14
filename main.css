@@ -1,8 +1,7 @@
-#bar{
+.bar{
     position: relative;
     display: flex;
     color: #ffffff;
-    z-index: -1;
     justify-content: space-around;
     background-color: rgb(63, 63, 63);
     height:5%;
@@ -23,7 +22,7 @@
     list-style-type: none;
 }
 .body{
-    background-color:rgb(255, 255, 255);
+    background-color: #ffffff;
 }
 .entire{
     position:relative;
@@ -32,7 +31,7 @@
     margin-right:5%;
     margin-left:5%;
 }
-.ag{
+.picture{
     width:100%;
     height:50%;
     border:#000000;
@@ -45,4 +44,29 @@
     width:100%;
     height:50%;
     margin-bottom: 1rem;
+}
+.photo{
+    background-color: #178f1b;
+    width:30%;
+    height:40%;
+    margin:5%;
+    float:left;
+    opacity: 70%;
+    outline-style: solid;
+    outline-color:#000000;
+    outline-width: 3px;
+}
+.content{
+    margin-top:5%;
+    margin-right:5%;
+    margin-left:5%;
+    color:#464646;
+}
+.endBox{
+    margin-top:10%;
+    height:20%;
+    background-color:#464646;
+}
+.theater{
+    background-color: #ffffff;
 }
